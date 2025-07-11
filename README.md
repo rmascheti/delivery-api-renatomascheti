@@ -17,7 +17,7 @@ Sistema de delivery desenvolvido com Spring Boot e Java 21.
 - Virtual Threads (Java 17)
 
 ## 🏃‍♂️ Como executar
-1. **Pré-requisitos:** JDK 17 instalado
+1. **Pré-requisitos:** JDK 21 instalado
 2. Clone o repositório
 3. Execute: `./mvnw spring-boot:run`
 4. Acesse: http://localhost:8080/health
@@ -34,4 +34,4 @@ Sistema de delivery desenvolvido com Spring Boot e Java 21.
 
 ## 👨‍💻 Desenvolvedor
 Renato Correa Mascheti - SDE - TI 27 - Arquitetura de Sistemas (Noite) 02547 
-Desenvolvido com JDK 17 e Spring Boot 3.5.3
+Desenvolvido com JDK 21 e Spring Boot 3.5.3
