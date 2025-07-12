@@ -20,7 +20,7 @@ public class Cliente {
     private List<Pedido> pedidos;
 
     public void inativar() {
-        // TODO Auto-generated method stub
+
         throw new UnsupportedOperationException("Unimplemented method 'inativar'");
     }
 }
