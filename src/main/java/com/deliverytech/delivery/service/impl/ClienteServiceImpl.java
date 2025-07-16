@@ -42,16 +42,16 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public void ativarDesativar(Long id) {
         clienteRepository.findById(id).ifPresent(c -> {
-            c.setAtivo(!c.isAtivo());
+            c.setAtivo(!c.getAtivo());
             clienteRepository.save(c);
         });
     }
- private void simulateDelay() {
+/*  private void simulateDelay() {
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-    }
+    } */
 
 }

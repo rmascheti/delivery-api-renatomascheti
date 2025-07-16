@@ -1,18 +1,21 @@
-// package com.deliverytech.delivery.model;
-
-// public class StatusPedido {
-//     public static final String PENDENTE = "PENDENTE";
-//     public static final String CONFIRMADO = "CONFIRMADO";
-//     public static final String ENTREGUE = "ENTREGUE";
-//     public static final String CANCELADO = "CANCELADO";
-    
-// }
-
 package com.deliverytech.delivery.model;
 
 public enum StatusPedido {
-    CRIADO,     
-    PENDENTE,     
-    CONFIRMADO,     
-    ENTREGUE,     
-    CANCELADO;}
+    CRIADO("Criado"),
+    PENDENTE("Pendente"),
+    CONFIRMADO("Confirmado"),
+    PREPARANDO("Preparando"),
+    SAIU_PARA_ENTREGA("Saiu para Entrega"),
+    ENTREGUE("Entregue"),
+    CANCELADO("Cancelado");
+
+    private final String descricao;
+
+    StatusPedido(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+}
