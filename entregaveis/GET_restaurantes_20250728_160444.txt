@@ -1,0 +1,50 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 28/07/2025 16:04:44
+Método: GET
+URL Completa: http://localhost:8080/api/restaurantes
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+[ {
+  "id" : 1,
+  "nome" : "Pizza Express",
+  "categoria" : "Italiana",
+  "telefone" : "1133333333",
+  "taxaEntrega" : 3.5,
+  "tempoEntregaMinutos" : null,
+  "ativo" : true
+}, {
+  "id" : 2,
+  "nome" : "Burger King",
+  "categoria" : "Fast Food",
+  "telefone" : "1144444444",
+  "taxaEntrega" : 5.0,
+  "tempoEntregaMinutos" : null,
+  "ativo" : true
+}, {
+  "id" : 3,
+  "nome" : "Sushi House",
+  "categoria" : "Japonesa",
+  "telefone" : "1155555555",
+  "taxaEntrega" : 4.0,
+  "tempoEntregaMinutos" : null,
+  "ativo" : true
+}, {
+  "id" : 4,
+  "nome" : "Gyros Athenas",
+  "categoria" : "Grega",
+  "telefone" : "1166666666",
+  "taxaEntrega" : 6.5,
+  "tempoEntregaMinutos" : null,
+  "ativo" : true
+}, {
+  "id" : 5,
+  "nome" : "Chiparia do Porto",
+  "categoria" : "Frutos do Mar",
+  "telefone" : "1177777777",
+  "taxaEntrega" : 7.0,
+  "tempoEntregaMinutos" : null,
+  "ativo" : true
+} ]
