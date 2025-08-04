@@ -1,0 +1,26 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 15:02:16
+Método: POST
+URL Completa: http://localhost:8080/api/clientes
+Status HTTP: 201
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "nome" : "João Remalho",
+  "email" : "joao.ramalho@email.com",
+  "telefone" : "1199999999",
+  "endereco" : "Rua das Flores,123",
+  "id" : 1
+}
+
+=== RESPOSTA REAL ===
+{
+  "id" : 8,
+  "nome" : "João Remalho",
+  "telefone" : "1199999999",
+  "endereco" : "Rua das Flores,123",
+  "email" : "joao.ramalho@email.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-08-04T15:02:16.500262131"
+}

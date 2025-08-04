@@ -1,0 +1,17 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 14:46:08
+Método: GET
+URL Completa: http://localhost:8080/api/produtos/1
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+{
+  "id" : 1,
+  "nome" : "Pizza Margherita",
+  "categoria" : "Pizza",
+  "descricao" : "Pizza clássica com molho de tomate, mussarela e manjericão",
+  "preco" : 25.9,
+  "disponivel" : true
+}

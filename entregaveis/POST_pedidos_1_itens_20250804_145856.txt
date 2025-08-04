@@ -1,0 +1,10 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 14:58:56
+Método: POST
+URL Completa: http://localhost:8080/api/pedidos/1/itens?produtoId=1&quantidade=2
+Status HTTP: 404
+Content-Type: null
+
+
+=== RESPOSTA REAL ===
+(Resposta vazia)

@@ -1,0 +1,27 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 14:42:49
+Método: POST
+URL Completa: http://localhost:8080/api/restaurantes
+Status HTTP: 201
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "nome" : "Pizzaria Bella Napoli",
+  "categoria" : "Italiana",
+  "telefone" : "11777777777",
+  "taxaEntrega" : 5.9,
+  "tempoEntregaMinutos" : 30,
+  "endereco" : "Av. Teste, 111"
+}
+
+=== RESPOSTA REAL ===
+{
+  "id" : 6,
+  "nome" : "Pizzaria Bella Napoli",
+  "categoria" : "Italiana",
+  "telefone" : "11777777777",
+  "taxaEntrega" : 5.9,
+  "tempoEntregaMinutos" : 30,
+  "ativo" : true
+}

@@ -1,0 +1,27 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 15:11:17
+Método: POST
+URL Completa: http://localhost:8080/api/restaurantes
+Status HTTP: 201
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "nome" : "Pizzaria Roma",
+  "categoria" : "Italiana",
+  "telefone" : "11777777777",
+  "taxaEntrega" : 4.9,
+  "tempoEntregaMinutos" : 35,
+  "endereco" : "Rua do Lago, 222"
+}
+
+=== RESPOSTA REAL ===
+{
+  "id" : 6,
+  "nome" : "Pizzaria Roma",
+  "categoria" : "Italiana",
+  "telefone" : "11777777777",
+  "taxaEntrega" : 4.9,
+  "tempoEntregaMinutos" : 35,
+  "ativo" : true
+}

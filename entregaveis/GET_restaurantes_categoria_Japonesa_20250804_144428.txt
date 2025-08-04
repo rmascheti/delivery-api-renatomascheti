@@ -1,0 +1,18 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 14:44:28
+Método: GET
+URL Completa: http://localhost:8080/api/restaurantes/categoria/Japonesa
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+[ {
+  "id" : 3,
+  "nome" : "Sushi House",
+  "categoria" : "Japonesa",
+  "telefone" : "1155555555",
+  "taxaEntrega" : 4.0,
+  "tempoEntregaMinutos" : null,
+  "ativo" : true
+} ]

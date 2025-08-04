@@ -1,0 +1,50 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 14:34:58
+Método: GET
+URL Completa: http://localhost:8080/api/clientes
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+[ {
+  "id" : 1,
+  "nome" : "João Silva",
+  "telefone" : "11987654321",
+  "endereco" : "Rua das Flores, 123 - Vila Madalena, São Paulo - SP",
+  "email" : "joao@email.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-08-04T11:26:10.629125"
+}, {
+  "id" : 2,
+  "nome" : "Maria Santos",
+  "telefone" : "11876543210",
+  "endereco" : "Av. Paulista, 456 - Bela Vista, São Paulo - SP",
+  "email" : "maria@email.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-08-04T11:26:10.629164"
+}, {
+  "id" : 4,
+  "nome" : "Ana Costa",
+  "telefone" : "11654321098",
+  "endereco" : "Rua Oscar Freire, 321 - Jardins, São Paulo - SP",
+  "email" : "ana@email.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-08-04T11:26:10.629181"
+}, {
+  "id" : 5,
+  "nome" : "Carlos Ferreira",
+  "telefone" : "11543210987",
+  "endereco" : "Rua 25 de Março, 654 - Centro, São Paulo - SP",
+  "email" : "carlos@email.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-08-04T11:26:10.629187"
+}, {
+  "id" : 6,
+  "nome" : "João Silva",
+  "telefone" : "1199999999",
+  "endereco" : "Rua das Flores,123",
+  "email" : "joao.silva@email.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-08-04T14:34:19.204238"
+} ]

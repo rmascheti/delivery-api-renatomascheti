@@ -1,0 +1,18 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 14:36:59
+Método: GET
+URL Completa: http://localhost:8080/api/clientes/1
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+{
+  "id" : 1,
+  "nome" : "João Silva",
+  "telefone" : "11987654321",
+  "endereco" : "Rua das Flores, 123 - Vila Madalena, São Paulo - SP",
+  "email" : "joao@email.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-08-04T14:36:41.964328"
+}

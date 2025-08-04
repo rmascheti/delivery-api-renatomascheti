@@ -1,0 +1,24 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 15:11:26
+Método: POST
+URL Completa: http://localhost:8080/api/produtos
+Status HTTP: 201
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "nome" : "Coca Cola 2L",
+  "preco" : 8.5,
+  "categoria" : "Bebida",
+  "restauranteId" : 1
+}
+
+=== RESPOSTA REAL ===
+{
+  "id" : 12,
+  "nome" : "Coca Cola 2L",
+  "categoria" : "Bebida",
+  "descricao" : null,
+  "preco" : 8.5,
+  "disponivel" : true
+}

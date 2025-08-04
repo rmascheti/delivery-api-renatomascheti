@@ -1,0 +1,87 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 04/08/2025 14:45:14
+Método: GET
+URL Completa: http://localhost:8080/api/produtos
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+[ {
+  "id" : 1,
+  "nome" : "Pizza Margherita",
+  "categoria" : "Pizza",
+  "descricao" : "Pizza clássica com molho de tomate, mussarela e manjericão",
+  "preco" : 25.9,
+  "disponivel" : true
+}, {
+  "id" : 2,
+  "nome" : "Pizza Pepperoni",
+  "categoria" : "Pizza",
+  "descricao" : "Pizza com molho de tomate, mussarela e pepperoni",
+  "preco" : 29.9,
+  "disponivel" : true
+}, {
+  "id" : 3,
+  "nome" : "Big Burger",
+  "categoria" : "Hambúrguer",
+  "descricao" : "Hambúrguer duplo com queijo, alface, tomate e molho especial",
+  "preco" : 18.5,
+  "disponivel" : true
+}, {
+  "id" : 4,
+  "nome" : "Batata Frita Grande",
+  "categoria" : "Acompanhamento",
+  "descricao" : "Porção grande de batatas fritas crocantes",
+  "preco" : 8.9,
+  "disponivel" : true
+}, {
+  "id" : 5,
+  "nome" : "Sushi Salmão",
+  "categoria" : "Sushi",
+  "descricao" : "8 peças de sushi de salmão fresco",
+  "preco" : 32.0,
+  "disponivel" : true
+}, {
+  "id" : 6,
+  "nome" : "Hot Roll",
+  "categoria" : "Sushi",
+  "descricao" : "8 peças de hot roll empanado com salmão",
+  "preco" : 28.5,
+  "disponivel" : true
+}, {
+  "id" : 7,
+  "nome" : "Gyros de Cordeiro",
+  "categoria" : "Espeto",
+  "descricao" : "Espeto de cordeiro grelhado com molho tzatziki, tomate e cebola roxa",
+  "preco" : 35.9,
+  "disponivel" : true
+}, {
+  "id" : 8,
+  "nome" : "Souvlaki de Frango",
+  "categoria" : "Espeto",
+  "descricao" : "Espetinho de frango marinado com ervas gregas e batata frita",
+  "preco" : 28.5,
+  "disponivel" : true
+}, {
+  "id" : 9,
+  "nome" : "Fish & Chips Tradicional",
+  "categoria" : "Peixe",
+  "descricao" : "Filé de bacalhau empanado com batatas fritas e molho tártaro",
+  "preco" : 42.9,
+  "disponivel" : true
+}, {
+  "id" : 10,
+  "nome" : "Porção de Camarão Empanado",
+  "categoria" : "Frutos do Mar",
+  "descricao" : "500g de camarão empanado com molho agridoce",
+  "preco" : 52.0,
+  "disponivel" : true
+}, {
+  "id" : 11,
+  "nome" : "Pizza Margherita",
+  "categoria" : "Pizza",
+  "descricao" : "Molho de tomate, mussarela e manjericão",
+  "preco" : 25.9,
+  "disponivel" : true
+} ]
