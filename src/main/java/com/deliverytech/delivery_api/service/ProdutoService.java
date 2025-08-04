@@ -1,10 +1,10 @@
 package com.deliverytech.delivery_api.service;
 
+import com.deliverytech.delivery_api.model.Produto;
+
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
-
-import com.deliverytech.delivery_api.model.Produto;
 
 public interface ProdutoService {
     // === OPERAÇÕES BÁSICAS ===

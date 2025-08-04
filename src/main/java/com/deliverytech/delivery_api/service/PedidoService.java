@@ -1,20 +1,21 @@
 package com.deliverytech.delivery_api.service;
 
-import java.math.BigDecimal;
+import com.deliverytech.delivery_api.dto.request.ItemPedidoRequest;
 import java.time.LocalDate;
+
+import com.deliverytech.delivery_api.model.Pedido;
+import com.deliverytech.delivery_api.model.StatusPedido;
+
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
-
-import com.deliverytech.delivery_api.dto.request.ItemPedidoRequest;
-import com.deliverytech.delivery_api.model.Pedido;
-import com.deliverytech.delivery_api.model.StatusPedido;
 
 public interface PedidoService {
     
     // === OPERAÇÕES BÁSICAS ===
     Pedido criar(Pedido pedido);
-    Optional<Pedido> buscarPorId(Long id);
+    Pedido buscarPorId(Long id);
     
     // === BUSCAS ESPECÍFICAS ===
     List<Pedido> buscarPorCliente(Long clienteId);         

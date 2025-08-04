@@ -1,15 +1,17 @@
 //mudança 16/07
 package com.deliverytech.delivery_api.service;
 
-import java.util.List;
-import java.util.Optional;
-
 import com.deliverytech.delivery_api.dto.request.ClienteRequest;
 import com.deliverytech.delivery_api.model.Cliente;
+
+
+import java.util.List;
+import java.util.Optional;
 
 /**
  * Interface de serviços para gerenciamento de clientes
  */
+
 public interface ClienteService {
 
   

@@ -1,26 +1,21 @@
 package com.deliverytech.delivery_api.service.impl;
 
+import com.deliverytech.delivery_api.dto.request.ItemPedidoRequest;
+import com.deliverytech.delivery_api.model.*;
+import com.deliverytech.delivery_api.repository.PedidoRepository;
+import com.deliverytech.delivery_api.repository.ProdutoRepository;
+import com.deliverytech.delivery_api.service.PedidoService;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import com.deliverytech.delivery_api.dto.request.ItemPedidoRequest;
-import com.deliverytech.delivery_api.model.ItemPedido;
-import com.deliverytech.delivery_api.model.Pedido;
-import com.deliverytech.delivery_api.model.Produto;
-import com.deliverytech.delivery_api.model.StatusPedido;
-import com.deliverytech.delivery_api.repository.PedidoRepository;
-import com.deliverytech.delivery_api.repository.ProdutoRepository;
-import com.deliverytech.delivery_api.service.PedidoService;
-
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
@@ -48,8 +43,9 @@ public class PedidoServiceImpl implements PedidoService {
     // ✅ IMPLEMENTAR métodos básicos se não existirem
     @Override
     @Transactional(readOnly = true)
-    public Optional<Pedido> buscarPorId(Long id) {
-        return pedidoRepository.findById(id);
+    public Pedido buscarPorId(Long id) {
+        return pedidoRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
     }
 
     @Override

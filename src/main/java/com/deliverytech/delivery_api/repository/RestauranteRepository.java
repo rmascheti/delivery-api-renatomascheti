@@ -1,12 +1,11 @@
 package com.deliverytech.delivery_api.repository;
 
-import java.math.BigDecimal;
-import java.util.List;
-
+import com.deliverytech.delivery_api.model.Restaurante;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.deliverytech.delivery_api.model.Restaurante;
+import java.math.BigDecimal;
+import java.util.List;
 
 public interface RestauranteRepository extends JpaRepository<Restaurante, Long> {
     List<Restaurante> findByCategoria(String categoria);
@@ -24,3 +23,4 @@ public interface RestauranteRepository extends JpaRepository<Restaurante, Long> 
     List<Restaurante> findByAtivoFalse();
     List<Restaurante> findByCategoriaAndAtivo(String categoria, Boolean ativo);
 }
+

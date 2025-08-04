@@ -1,12 +1,12 @@
 // Mudança 16/07
 package com.deliverytech.delivery_api.service;
 
+import com.deliverytech.delivery_api.dto.request.RestauranteRequest;
+import com.deliverytech.delivery_api.model.Restaurante;
+
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
-
-import com.deliverytech.delivery_api.dto.request.RestauranteRequest;
-import com.deliverytech.delivery_api.model.Restaurante;
 
 public interface RestauranteService {
     
